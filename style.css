@@ -45,6 +45,21 @@ header h1 {
     float: left;
 }
 
+#language-switcher {
+    float: right;
+    margin-top: 10px;
+}
+
+#language-switcher button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background: #77b300;
+    color: white;
+    border-radius: 3px;
+}
+
 main {
     float: left;
     width: 70%;
@@ -87,12 +102,12 @@ footer {
         width: 100%;
     }
 
-    header h1, header nav {
+    header h1, header nav, #language-switcher {
         float: none;
         text-align: center;
     }
 
-    header nav {
+    header nav, #language-switcher {
         margin-top: 10px;
     }
 }
